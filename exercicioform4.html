@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Exercicio, formulário 4</title>
+  </head>
+  <body>
+    <main class="container">
+        <div class="row form-group mt-4">
+            <div class="col">
+                <h1>Novo Usuário</h1>
+            </div>
+        </div>
+
+        <div class="row form-group mt-4">
+            <div class="col">
+                <label for="nomeUsuario" class="form-label"><strong>Nome:</strong></label>
+                <input type="text" id="nomeUsuario" name="nomeUsuario" class="form-control" placeholder="Informe o nome"/>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-4">
+                <label for="cpfUsuario" class="form-label"><strong>CPF:</strong></label>
+                <input type="text" id="cpfUsuario" name="cpfUsuario" class="form-control" placeholder="Informe o cpf"/>
+            </div>
+
+            <div class="col-6">
+                <label for="enderecoUsuario" class="form-label"><strong>Endereço:</strong></label>
+                <input type="text" id="enderecoUsuario" name="enderecoUsuario" class="form-control" placeholder="Informe o endereço"/>
+            </div>
+
+            <div class="col-2">
+                <label for="nivelUsuario">Nível:</label>
+                <select class="form-control" id="nivelUsuario" name="nivelUsuario">
+                    <option value="" selected disabled>--</option>
+                    <option value="nivelUm">Um</option>
+                    <option value="nivelDois">Dois</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-6">
+                <label for="emailUsuario" class="form-label"><strong>Email:</strong></label>
+                <input type="email" id="emailUsuario" name="emailUsuario" class="form-control" placeholder="Informe o email"/>
+            </div>
+    
+            <div class="col-4">
+                <label for="senhaUsuario" class="form-label"><strong>Senha:</strong></label>
+                <input type="password" id="senhaUsuario" name="senhaUsuario" class="form-control" placeholder="Informe a senha"/>
+            </div>
+    
+            <div class="col-2">
+                <label for="statusUsuario">Status:</label>
+                <select class="form-control" id="statusUsuario" name="statusUsuario">
+                    <option value="" selected disabled>--</option>
+                    <option value="statusAtivo">Ativo</option>
+                    <option value="statusInativo">Inativo</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-end">
+                <div class="form-group">
+                    <button type="button" class="btn btn-success">Enviar</button>
+                    <button type="button" class="btn btn-light border border-dark">Cancelar</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
